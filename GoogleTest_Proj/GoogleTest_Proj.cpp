@@ -5,11 +5,13 @@
 #include "gtest\gtest.h"
 #include "..\MyProject2\Class1.h"
 
-int main(int argc, char **argv) {
-	printf("Running main() from gtest_main.cc\n");
-	testing::InitGoogleTest(&argc, argv);
-	return RUN_ALL_TESTS();
-}
+//int main() { return 0; }
+
+//int main(int argc, char **argv) {
+//	printf("Running main() from gtest_main.cc\n");
+//	testing::InitGoogleTest(&argc, argv);
+//	return RUN_ALL_TESTS();
+//}
 
 TEST(testGroup, firstTest)
 {
