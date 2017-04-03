@@ -5,7 +5,7 @@
 #include "gtest\gtest.h"
 #include "..\MyProject2\Class1.h"
 
-GTEST_API_ int main(int argc, char **argv) {
+int main(int argc, char **argv) {
 	printf("Running main() from gtest_main.cc\n");
 	testing::InitGoogleTest(&argc, argv);
 	return RUN_ALL_TESTS();
