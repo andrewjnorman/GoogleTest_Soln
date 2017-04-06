@@ -7,17 +7,17 @@
 
 //int main() { return 0; }
 
-//int main(int argc, char **argv) {
-//	printf("Running main() from gtest_main.cc\n");
-//	testing::InitGoogleTest(&argc, argv);
-//	return RUN_ALL_TESTS();
-//}
+int main(int argc, char **argv) {
+	printf("Running main() from gtest_main.cc\n");
+	testing::InitGoogleTest(&argc, argv);
+	return RUN_ALL_TESTS();
+}
 
 TEST(testGroup, firstTest)
 {
-	Class1 y;
+	Class1 *y = new Class1();
 
-	int x = y.fn_1();
+	int x = y->fn_1();
 
 	printf("first test running\n");
 
