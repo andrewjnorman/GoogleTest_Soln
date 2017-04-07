@@ -21,6 +21,6 @@ TEST(testGroup, firstTest)
 
 	printf("first test running\n");
 
-	ASSERT_EQ(x, 99);
+	ASSERT_EQ(x, 98);
 }
 
